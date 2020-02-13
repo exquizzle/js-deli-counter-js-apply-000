@@ -9,7 +9,7 @@ function takeANumber(currentLineArr, newPerson)  {
     if ( currentLineArr.length === 0 )  {
       return  "There is nobody waiting to be served!";
     }  else  {
-      return "Currently serving " + currentLineArr.shift();
+          return "Currently serving " + currentLineArr.shift() + ".";  // forgot to format in the period
     }
   }
 
