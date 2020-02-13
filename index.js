@@ -1,5 +1,5 @@
 function takeANumber(currentLineArr, newPerson)  {
-    newPersonIdx = currentLineArr.length+1;
+    let newPersonIdx = currentLineArr.length+1;
     let greeting = `Welcome, ${newPerson}. You are number ${newPersonIdx} in line.`
     currentLineArr.push(newPerson);
     return greeting;
