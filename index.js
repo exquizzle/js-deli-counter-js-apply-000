@@ -15,7 +15,7 @@ function takeANumber(currentLineArr, newPerson)  {
 
   function currentLine(currentLineArr)  {
     if (currentLineArr.length === 0)  {
-      return "The line is currently empty";
+      return "The line is currently empty.";  // forgot to format in the period
     }  else  {
       let theLine = "The line is currently:";
       for ( let i = 0; i<currentLineArr.length; i++ )  {
